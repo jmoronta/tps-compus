@@ -1,0 +1,7 @@
+Git Status ver el estado general
+Git logs   ver todos los cambios
+Git checkout viajar en el tiempo entre versiones (master es la ultima o codigo del commit)
+git add -A sube todo a la lista para subir
+git commit -m sube todo con un mensaje
+git branch nos muestra la rama en la que estamos
+

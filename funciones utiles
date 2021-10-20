@@ -1,0 +1,9 @@
+funcion tiempo 
+start = time.perf_counter()
+finish = time.perf_counter()
+tt = round (finish-start,3)
+
+funcion random
+ran = random.randint(1,10)
+
+p1.pid mostrar el pid del proceso
