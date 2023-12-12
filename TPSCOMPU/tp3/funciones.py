@@ -154,8 +154,7 @@ def aplicarfiltro(imagen,filtro, intensidad,size,directorio,hilos):
     except FileNotFoundError:
         print(_ERROR_ARCHIVO)
         sys.exit()
-<<<<<<< HEAD
-=======
+
     if size % 3 != 0: #VEO si es multiplo de 3
         size += (3 - (size % 3))
     leido = os.read(archivo, size)
@@ -214,7 +213,7 @@ def aplicarfiltro(imagen,filtro, intensidad,size,directorio,hilos):
             estado = 1
         leido = os.read(archivo, size)
                     
->>>>>>> f4a3bd046448f872ad360084ce8df6a8f9b4a779
+
     return estado
 
 def cambiar_colores_red(cuerpo2, intensidad):
@@ -283,9 +282,9 @@ def cambiar_colores_bw(lista, intensidad):
             prom = 0
             i = 0
     image_bw = array.array('B', imagebw)
-<<<<<<< HEAD
+
     return image_bw       
-=======
+
     try:
         with open(directorio + imagen+'-black&white.ppm', 'ab') as f:
             print(encabezado)
@@ -302,4 +301,4 @@ def cambiar_colores_bw(lista, intensidad):
  
 
 
->>>>>>> f4a3bd046448f872ad360084ce8df6a8f9b4a779
+
